@@ -52,10 +52,10 @@ loser = pygame.image.load("endscreen.png")
 loser_rect = loser.get_rect()
 
 maps = []
-one = TiledMap("2.tmx")
-two = TiledMap("3.tmx")
-three = TiledMap("1.tmx")
-four = TiledMap("4.tmx")
+one = TiledMap("maps/2.tmx")
+two = TiledMap("maps/3.tmx")
+three = TiledMap("maps/1.tmx")
+four = TiledMap("maps/4.tmx")
 
 maps.append(one)
 maps.append(two)
